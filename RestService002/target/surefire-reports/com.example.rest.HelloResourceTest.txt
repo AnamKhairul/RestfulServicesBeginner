@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.rest.HelloResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+com.example.rest.HelloResourceTest.testPostMultivalued()  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "javax.ws.rs.client.WebTarget.path(String)" because "this.target" is null
+	at com.example.rest.HelloResourceTest.testPostMultivalued(HelloResourceTest.java:45)
+
